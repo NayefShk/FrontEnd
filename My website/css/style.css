@@ -1,0 +1,188 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #87CEEB, #E0F6FF);
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 1rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2A5298;
+}
+
+.login-btn {
+    text-align: right;
+    background: #2A5298;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #1A3657;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #2A5298;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.get-started-btn {
+    background: #1A3657;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.get-started-btn:hover {
+    background: #1A3657;
+    transform: scale(1.05);
+}
+
+/* Scroll Sections */
+.scroll-section {
+    padding: 6rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.scroll-section h2 {
+    color: #2A5298;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.scroll-section p {
+    color: #666;
+    width: 1000px;
+    line-height: 1.6;
+}
+
+
+/* home.css */
+/* Body with Background Image */
+body {
+    background-image: url('../images/skybg3.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
+    color: rgb(0, 0, 0); /* Default text color */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.get-started-btn {
+    background: #1A3657;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.get-started-btn:hover {
+    background: #1A3657;
+    transform: scale(1.05);
+}
+
+/* Scroll Sections */
+.scroll-section {
+    padding: 6rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    margin: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-section h2 {
+    color: #2A5298;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.scroll-section p {
+    color: #333;
+    max-width: 1000px;
+    line-height: 1.6;
+}
+
+.scroll-section 
